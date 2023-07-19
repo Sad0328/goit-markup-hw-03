@@ -216,14 +216,14 @@ color: var(--title-color);
     background-color: var(--navyblue-color);
     cursor: pointer;
 }
-.header-menu-link:hover {
+/* .header-menu-link:hover {
         background-color: var(--navyblue-color);
         cursor: pointer;
     }
 .header-menu-link:focus {
     background-color: var(--navyblue-color);
     cursor: pointer;
-}
+} */
 
 
 .softskills {
