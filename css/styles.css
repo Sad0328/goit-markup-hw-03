@@ -1,7 +1,11 @@
  :root {
-    --hero-color:#FFFFFF;
-    --title-color:#2E2F42;
-    --blue-color:#4D5AE5;
+    --hero-color: #FFFFFF;
+        --title-color: #2E2F42;
+        --blue-color: #4D5AE5;
+        --gray-color: #e7e9fc;
+        --navyblue-color: #404bbf;
+        --dark-color: #434455;
+        --darkwhite-color: #F4F4FD;
 
  }
 /* var(--hero-color);
@@ -10,7 +14,7 @@ var(--blue-color); */
 
 .body {
     font-family: 'Roboto', sans-serif;
-    color:#434455;
+    color:var(--dark-color);
     background: var(--hero-color);
 }
 
@@ -47,12 +51,12 @@ a {
 
 .header {
     
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--gray-color);
 
 }
 
 .header-container {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--gray-color);
     display: flex;
     align-items: center;
     padding: 0 15px;
@@ -107,22 +111,22 @@ color: var(--title-color);
 
 }
 .header-menu-link .link:hover {
-        color: #404bbf;
+        color: var(--navyblue-color);
          cursor: pointer;
 }
 
 .header-menu-link .link:focus {
-    color: #404bbf;
+    color: var(--navyblue-color);
     cursor: pointer;
 }
 
 .link:hover {
-    color: #404bbf;
+    color: var(--navyblue-color);
     cursor: pointer;
 }
 
 .link:focus {
-    color: #404bbf;
+    color: var(--navyblue-color);
     cursor: pointer;
 }
 
@@ -142,17 +146,17 @@ color: var(--title-color);
 
 }
 
-.header-address-item2 {
+/* .header-address-item2 {
     margin-right: 0;
 
-}
+} */
 
 .header-address-link {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
 
 }
 
@@ -161,18 +165,18 @@ color: var(--title-color);
     padding: 188px 0;
  
 }
-.hero:focus {
+/* .hero:focus {
     background-color: #404BBF;
 
 }
 .hero:hover {
     background-color: #404BBF;
 
-}
+} */
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -197,26 +201,26 @@ color: var(--title-color);
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color:#4d5ae5;
+    background-color:var(--blue-color);
     border-radius: 4px;
     cursor: pointer;
     margin: center;
 
 }
 .hero-btn:hover {
-    background-color: #404BBF;
+    background-color: var(--navyblue-color);
     cursor: pointer;
 }
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--navyblue-color);
     cursor: pointer;
 }
 .header-menu-link:hover {
-        background-color: #404BBF;
+        background-color: var(--navyblue-color);
         cursor: pointer;
     }
 .header-menu-link:focus {
-    background-color: #404BBF;
+    background-color: var(--navyblue-color);
     cursor: pointer;
 }
 
@@ -262,11 +266,11 @@ color: var(--title-color);
 }
 
 .softskills--item-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
     margin-bottom: 8px;
 
 }
@@ -277,7 +281,7 @@ color: var(--title-color);
 }
 
 .projects-title {
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -305,17 +309,17 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
     margin-bottom: 8px;
 }
 
 .project-item-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
-    background: #FFFFFF;
+    color: var(--dark-color);
+    background: var(--hero-color);
 }
 
 .team {
@@ -329,7 +333,7 @@ color: var(--title-color);
 }
 .container-item {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--gray-color);
     border-top: none;
 }
 .container-team {
@@ -337,7 +341,7 @@ color: var(--title-color);
     /* width: calc((100% - 72px) / 4); */
 }
 .team-title {
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -349,13 +353,13 @@ color: var(--title-color);
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     display: flex;
     gap: 24px;
 }
 
 .team-item {
-    background-color: #FFFFFF;
+    background-color: var(--hero-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     
@@ -374,11 +378,11 @@ color: var(--title-color);
 }
 
 .team-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--dark-color);
     text-align: center;
     display: flex;
     
@@ -397,7 +401,7 @@ color: var(--title-color);
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4D5AE5;
+    color: var(--blue-color);
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
@@ -446,18 +450,18 @@ color: var(--title-color);
     
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--blue-color);
     background-color: #F4F4FD;
 }
 .filtr-button-text:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--navyblue-color);
+    color: var(--hero-color);
     cursor: pointer;
 }
 
 .filtr-button-text:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--navyblue-color);
+    color: var(--hero-color);
     cursor: pointer;
 }
 
@@ -477,22 +481,22 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--hero-color);
     margin-bottom: 8px;
 }
 
 .app-item-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
-    background: #FFFFFF;
+    color: var(--dark-color);
+    background: var(--hero-color);
 }
 
 .app-url {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--gray-color);
     border-top: none;
     margin-bottom: 8px;
     
@@ -529,7 +533,7 @@ color: var(--title-color);
 
  .filtr-button-text {
     padding: 12px 24px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--gray-color);
     border-radius: 4px;
     flex-wrap: wrap; 
      margin-bottom: 48px 
