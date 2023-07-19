@@ -329,9 +329,9 @@ color: var(--title-color);
 
 }
 
-.container {
+/* .container {
     padding: 0 15px;
-}
+} */
 .container-item {
     padding: 32px 16px;
     border: 1px solid var(--gray-color);
