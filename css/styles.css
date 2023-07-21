@@ -192,6 +192,7 @@ color: var(--title-color);
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     
    
    
@@ -444,6 +445,7 @@ color: var(--title-color);
 
 
 .filtr-section {
+    padding: 96px 0 120px 0;
  
 }
 
@@ -496,7 +498,7 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: var(--hero-color);
+    /* color: var(--hero-color); */
     margin-bottom: 8px;
 }
 
@@ -539,7 +541,7 @@ color: var(--title-color);
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-    padding: 96px 0 120px 0;
+    
     /* padding-top: 96px; 
     padding-bottom: 120px; 
     row-gap: 48px; 
