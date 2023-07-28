@@ -283,7 +283,7 @@ color: var(--title-color);
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--dark-color);
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 
 }
 
@@ -498,7 +498,7 @@ color: var(--title-color);
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    /* color: var(--hero-color); */
+    color: var(--navyblue-color);
     margin-bottom: 8px;
 }
 
@@ -553,7 +553,7 @@ color: var(--title-color);
     border: 1px solid var(--gray-color);
     border-radius: 4px;
     flex-wrap: wrap; 
-     margin-bottom: 48px 
+     /* margin-bottom: 48px  */
  }
 
  .filtr-button-text:hover {
@@ -566,6 +566,6 @@ color: var(--title-color);
     cursor: pointer;
  }
 
-.filtr-buttonl {
-    margin-bottom: 0;
+.filtr-button {
+    /* margin-bottom: 0; */
 }
